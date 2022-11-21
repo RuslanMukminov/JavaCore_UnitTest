@@ -1,7 +1,7 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class BookTestClass {
+public class BookTest {
     public Book book = new Book("Название", new Author("Имя", "Фамилия"), 2022);
 
     @Test
